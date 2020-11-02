@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+.back-ground{
+   
+    background-image: url('./imgs/b.webp') ;
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+}
+
+.todo{
+    font-family: 'Kalam', cursive;
+    font-size: 26pt;
+    position: relative;
+    left: 12%;
+    top: 50px;
+    width: 200px;
+}
+
+.myform{
+    position: relative;
+    left: 9%;
+    top: 70px;
+    width: 500px;
+}
+
+#ftodo{
+    padding: 12px 35px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(119, 110, 110);
+    outline: none;
+
+}
+
+#add{
+    width: 242px;
+    padding: 9px 35px;
+    position: relative;
+    left: 120px;
+    top: 60px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(119, 110, 110); 
+    font-family: 'Kalam', cursive;
+    font-size: 11pt;
+    outline: none;
+
+
+}
+
+.list{
+    width: 380px;
+    height: 350px;
+    background: white;
+    position: relative;
+    left: 36%;
+    top: -100px;
+    border-radius: 50px;
+    opacity: .5;
+}
+
+#title{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-family: 'Kalam', cursive;
+    font-size: 15pt;
+}
+
+#mylist{
+    position: relative;
+    left: 38%;
+    top: -380px;
+    width: 500px;
+    list-style-type: none;
+
+}
+
+.item-design{
+    font-family: 'Kalam', cursive;
+    font-size: 14pt;
+    border-bottom: 2px solid rgb(119, 110, 110); 
+    width: 320px;
+    margin-bottom: 12px;
+    
+
+}
+
+.removebtn-design{
+background-image: url('./imgs/delete.png') ;
+background-repeat: no-repeat;
+width: 20px;
+height: 17px;
+/* margin-right: 10px;
+margin-left: 238px; */
+border: none;
+position: relative;
+top: 7px;
+outline: none;
+
+/* left: 220px; */
+}
+
+.editbtn-design{
+    background-image: url('./imgs/edit-tool.png') ;
+    width: 20px;
+    background-repeat: no-repeat;
+    outline: none;
+    height: 17px;
+    margin-right: 10px;
+    /* margin-left: 220px; */
+    border: none;
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+    /* left: 230px; */
+
+    } 
